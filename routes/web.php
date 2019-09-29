@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/forms', 'AdminController@forms');
+Route::get('/tambah_barang', 'AdminController@tambah_barang');
+Route::get('/list_barang', 'AdminController@list_barang');
+
+Route::post('/tambah_barang', 'AdminController@submit_tambah_barang');

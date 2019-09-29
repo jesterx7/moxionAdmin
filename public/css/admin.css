@@ -1,0 +1,63 @@
+.display_image {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.list_barang {
+	margin: 10px;
+}
+
+.card_list_barang {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 90%;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.card_list_barang:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.img_barang {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.detail_list_barang {
+	padding: 10px;
+}
+
+.detail_list_barang > h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+}
+
+.detail_list_barang > h4 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+}
+
+.btn_list_barang {
+	position: absolute;
+	padding: 10px;
+	right: 0;
+	bottom: 0;
+}
