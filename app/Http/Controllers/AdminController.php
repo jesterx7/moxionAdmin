@@ -18,6 +18,14 @@ class AdminController extends Controller {
 		return view('tambah_barang');
 	}
 
+	public function login_view() {
+		return view('login');
+	}
+
+	public function sign_up() {
+		return view('sign_up');
+	}
+
 	public function list_barang() {
 		$data_barang = Barang::all();
 

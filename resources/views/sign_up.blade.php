@@ -20,20 +20,16 @@
                                 <label>Password</label>
                                 <input class="au-input au-input--full" type="password" name="password" placeholder="Password">
                             </div>
-                            <div class="login-checkbox">
-                                <label>
-                                    <input type="checkbox" name="remember">Remember Me
-                                </label>
-                                <label>
-                                    <a href="#">Forgotten Password?</a>
-                                </label>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input class="au-input au-input--full" type="password" name="confirm_password" placeholder="Confirm Password">
                             </div>
-                            <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">sign in</button>
+                            <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">sign up</button>
                         </form>
                         <div class="register-link">
                             <p>
-                                Don't you have account?
-                                <a href="/sign_up">Sign Up Here</a>
+                                Already have an account?
+                                <a href="/login">Sign In Here</a>
                             </p>
                         </div>
                     </div>
@@ -42,5 +38,4 @@
         </div>
     </div>
 </div>
-
 @endsection

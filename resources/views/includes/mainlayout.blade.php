@@ -93,7 +93,7 @@
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
                         <li>
-                            <a href="map.html">
+                            <a href="/login">
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
                         </li>
                         <li class="has-sub">
@@ -201,7 +201,7 @@
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
                         <li>
-                            <a href="map.html">
+                            <a href="/login">
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
                         </li>
                         <li>

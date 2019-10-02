@@ -18,5 +18,7 @@ Route::get('/', function () {
 Route::get('/forms', 'AdminController@forms');
 Route::get('/tambah_barang', 'AdminController@tambah_barang');
 Route::get('/list_barang', 'AdminController@list_barang');
+Route::get('/login', 'AdminController@login_view');
+Route::get('/sign_up', 'AdminController@sign_up');
 
 Route::post('/tambah_barang', 'AdminController@submit_tambah_barang');
